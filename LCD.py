@@ -95,6 +95,6 @@ def write(x, y, str):
     send_data(ord(chr))
 
 if __name__ == '__main__':
-  init(0x48, 1)
+  init(0x27, 1)
   write(4, 0, 'Hello')
   write(7, 1, 'REXQUALIS!')
